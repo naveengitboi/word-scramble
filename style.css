@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body
+{
+    background-color: #5271E9;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container
+{
+    background-color: white;
+    border-radius: .5rem;
+    width: 500px;
+    position: relative;
+}
+
+.heading 
+{
+    font-size: 1.75rem;
+    font-weight: 500;
+    padding: .5rem .75rem;
+    border-bottom: 1px solid rgb(218, 218, 218);
+}
+
+.word
+{
+    font-size: 2.4rem;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 1.7px;
+    margin: 1.89rem 0;
+}
+.hintBox 
+{
+    padding: 0rem 1rem;
+    margin-bottom: .5rem;
+}
+
+.guessWord 
+{
+    width: 400px;
+    margin: .25rem 1rem;
+    padding: .8rem 1rem;
+    border-radius: .25rem;
+    font-family: poppins;
+    font-weight: 500;
+    font-size: 1.15rem;
+    border: 1px solid rgb(228, 228, 228);
+}
+
+.buttons
+{
+    padding: .5rem 1.25rem;
+}
+.buttons button 
+{
+    padding: .8rem 2.25rem;
+    margin: .25rem .5rem;
+    border: none;
+    border-radius: .25rem;
+    color: white;
+    font-family: poppins;
+    font-weight: 500;
+    cursor: pointer;
+}
+.refresh
+{
+    background-color: grey;
+}
+.check
+{
+    background-color: green;
+}
